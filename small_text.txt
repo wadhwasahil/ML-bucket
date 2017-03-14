@@ -1,0 +1,5 @@
+My name is Alex. I belong to canada.
+What's happening out there? Please don't make any noice.
+Thanks for being there my friend. I dont care anymore.
+A Gaussian Mixture Model represents a composite distribution whereby points are drawn from one of k Gaussian sub-distributions, each with its own probability. The spark.mllib implementation uses the expectation-maximization algorithm to induce the maximum-likelihood model given a set of samples. The implementation has the following parameters:
+The following examples can be tested in the PySpark shell.
