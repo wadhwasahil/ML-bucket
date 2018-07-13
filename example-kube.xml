@@ -37,11 +37,6 @@
                     -->
                     <bean
                         class="org.apache.ignite.spi.discovery.tcp.ipfinder.kubernetes.TcpDiscoveryKubernetesIpFinder"/>
-                <property name="namespace" value="default"/>
-
-               <property name="serviceName" value="ignite"/>
-
-              <property name="masterUrl" value="https://35.192.214.68"/>
             </bean>
         </property>
     </bean>
