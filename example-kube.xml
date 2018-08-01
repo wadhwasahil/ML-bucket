@@ -28,6 +28,7 @@
 
     <bean class="org.apache.ignite.configuration.IgniteConfiguration">
       <property name="peerClassLoadingEnabled" value="true" />
+       <property name="igniteInstanceName" value="Ignite Parameter Server" />
 
         <!-- Explicitly configure TCP discovery SPI to provide list of initial nodes. -->
         <property name="discoverySpi">
